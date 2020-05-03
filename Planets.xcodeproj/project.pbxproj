@@ -13,6 +13,10 @@
 		9DDBBD112113609800A55978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0F2113609800A55978 /* LaunchScreen.storyboard */; };
 		9DDBBD19211360D100A55978 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD18211360D100A55978 /* Planet.swift */; };
 		9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD1E211360F500A55978 /* PlanetController.swift */; };
+		AD72AE6B245E477800AC43DB /* PlanetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE6A245E477800AC43DB /* PlanetsCollectionViewController.swift */; };
+		AD72AE6D245E47A700AC43DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE6C245E47A700AC43DB /* SettingsViewController.swift */; };
+		AD72AE70245E489A00AC43DB /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE6F245E489A00AC43DB /* PlanetCollectionViewCell.swift */; };
+		AD72AE72245E627D00AC43DB /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE71245E627D00AC43DB /* SettingsKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9DDBBD122113609800A55978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DDBBD18211360D100A55978 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		9DDBBD1E211360F500A55978 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		AD72AE6A245E477800AC43DB /* PlanetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCollectionViewController.swift; sourceTree = "<group>"; };
+		AD72AE6C245E47A700AC43DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AD72AE6F245E489A00AC43DB /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD72AE71245E627D00AC43DB /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		27F670EB21EFC6AA0035C1BF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD72AE6A245E477800AC43DB /* PlanetsCollectionViewController.swift */,
+				AD72AE6C245E47A700AC43DB /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -67,7 +77,9 @@
 				27F670EB21EFC6AA0035C1BF /* View Controllers */,
 				9DDBBD1A211360D500A55978 /* Model */,
 				9DDBBD1C211360E000A55978 /* Model Controller */,
+				AD72AE6E245E484100AC43DB /* Views */,
 				9DDBBD1B211360DA00A55978 /* Resources */,
+				AD72AE71245E627D00AC43DB /* SettingsKeys.swift */,
 			);
 			path = Planets;
 			sourceTree = "<group>";
@@ -97,6 +109,14 @@
 				9DDBBD1E211360F500A55978 /* PlanetController.swift */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		AD72AE6E245E484100AC43DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD72AE6F245E489A00AC43DB /* PlanetCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +193,11 @@
 			files = (
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
+				AD72AE70245E489A00AC43DB /* PlanetCollectionViewCell.swift in Sources */,
+				AD72AE6B245E477800AC43DB /* PlanetsCollectionViewController.swift in Sources */,
+				AD72AE6D245E47A700AC43DB /* SettingsViewController.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				AD72AE72245E627D00AC43DB /* SettingsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
